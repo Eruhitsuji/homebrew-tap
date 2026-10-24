@@ -4,26 +4,26 @@
 class Lifetxt < Formula
   desc "Parser, validator, converter, CLI, and optional web UI for life.txt"
   homepage "https://github.com/Eruhitsuji/lifetxt"
-  version "1.0.4.1"
+  version "1.0.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.1/lifetxt-macos-arm64"
-      sha256 "c0a0f049f0bb5fe1742169ddc2cda216f7f0107c1ed665758c85a0ae8a6557cf"
+      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.3/lifetxt-macos-arm64"
+      sha256 "3d8f75b40a14744fbaee0c7e409d4a6602854ed4154435f50ebadef5ca5f638e"
     else
-      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.1/lifetxt-macos-x86_64"
-      sha256 "1ae4b552f909526a6a638b84da420f8cf617f2925f4130d405d3fcca3c786f97"
+      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.3/lifetxt-macos-x86_64"
+      sha256 "8be2d71b7c8cae7bcbf3a4f922b5103405ed9f0944272fa5d9c4c0bf9a9b0ff1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.1/lifetxt-linux-arm64"
-      sha256 "30a700bc0ea4a6bc2d6b27375855323ee57c7ef562bed0597af0ee00e82a2a99"
+      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.3/lifetxt-linux-arm64"
+      sha256 "ab196705d75f303744d729c55e742d2f7f6965e93faeaad89660e0375c4e88a4"
     else
-      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.1/lifetxt-linux-x86_64"
-      sha256 "189e91c5fa34068d417d7d268a7dc767f00dd779746cb5d662edb8355dfa4f4b"
+      url "https://github.com/Eruhitsuji/lifetxt/releases/download/v1.0.4.3/lifetxt-linux-x86_64"
+      sha256 "11f21240cfc539a997e789a65510981093d566f8d7a6df012cf9fcffa671072d"
     end
   end
 
